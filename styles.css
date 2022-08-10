@@ -30,7 +30,7 @@ ul {
 
 body {
     width: 100%;
-    height: 100vh;
+    height: fit-content;
 }
 
 #content {
@@ -97,6 +97,7 @@ body {
 /* content */
 .main-content {
     height: fit-content;
+    min-height: 65vh;
     width: 100%;
     background-color: var(--camel);
     display: flex;
@@ -127,6 +128,7 @@ footer img {
     width: 30px;
     height: 20px;
     cursor: pointer;
+    margin-top: 5px;
 }
 
 /* home page */
@@ -159,7 +161,7 @@ footer img {
 
 .home-page img {
     width: 400px;
-    height: 400px;
+    height: 420px;
     grid-row: span 2;
 }
 
@@ -251,4 +253,46 @@ footer img {
 .item-price {
     font-size: 17px;
     font-weight: 800;
+}
+
+/* contact */
+.contact-container {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin-bottom: 15px;
+    color: black;
+    border-radius: 10px;
+}
+
+.contact-us, .address {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 15px;
+}
+
+.contact-us h2, .address h2, .contact-div {
+    margin-bottom: 10px;
+}
+
+.contact-us h2, .address h2 {
+    font-weight: bolder;
+}
+
+.contact-us img, .address img {
+    width: 20px;
+    height: 20px;
+}
+
+.contact-div, .address div {
+    display: flex;
+    column-gap: 8px; 
+    font-weight: bold;
 }
