@@ -8,7 +8,7 @@ loadContent()
 
 function loadContent(){
     let currentTab = document.querySelector('.active');
-    if (document.querySelector('.active').classList.contains('menu')) {
+    if (currentTab.classList.contains('menu')) {
       createMenu()
     } else if (currentTab.classList.contains('home')){
         createHome()

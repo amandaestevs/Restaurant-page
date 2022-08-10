@@ -11,7 +11,7 @@ function createHeader(){
   headerElem.classList.add('header')
   container.append(headerElem);
   
-  const name = document.createElement('h2');
+  const name = document.createElement('h1');
   name.classList.add('name');
   name.textContent = 'Coffee Times';
   headerElem.append(name);
