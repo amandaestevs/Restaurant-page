@@ -28,7 +28,7 @@ function createHeader(){
 
 function createFooter(){
    const footerElem = document.createElement('footer');
-   footerElem.innerHTML = '<div>Created by amandaestevs <a href="https://github.com/amandaestevs" target="_blank"><img src="img/github-brands.svg"></a></div>';
+   footerElem.innerHTML = '<div>Created by amandaestevs <a href="https://github.com/amandaestevs/Restaurant-page" target="_blank"><img src="img/github-brands.svg"></a></div>';
    container.append(footerElem);
 }
 
