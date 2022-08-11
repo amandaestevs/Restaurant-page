@@ -102,6 +102,10 @@ body {
     .nav a {
         font-size: 20px;
     }
+
+    .nav ul {
+        column-gap: 1em;
+    }
 }
 
 /* content */
@@ -215,6 +219,13 @@ footer img {
         font-size: 1em;
     }
 }
+
+@media (max-width: 700px) {
+    .home-page img {
+      width: 350px;
+      height: 370px;
+    }
+  }
 /* menu-page */
 .menu-container{
   width: 80%;
